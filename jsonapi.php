@@ -7,6 +7,6 @@ for($i = 0; $i < 10; $i++) {
  }
  header('Content-Type: application/json');
  
-    $jsonOutput = json_encod($items);
+    $jsonOutput = json_encode($items);
     
  echo $jsonOutput;   
